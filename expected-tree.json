@@ -1,0 +1,381 @@
+{
+  "schema_version": "1.2",
+  "pm": "composer",
+  "pm_version_tested": "2.6",
+  "pm_version_under_test": "2.10",
+  "source_file": "composer.json",
+  "generated_at": "2026-05-28T11:01:43Z",
+  "root": {
+    "name": "mend-qa/composer-210-install-policy",
+    "version": "1.0.0",
+    "dependencies": [
+      "guzzlehttp/guzzle",
+      "psr/log",
+      "symfony/console",
+      "symfony/http-client"
+    ]
+  },
+  "packages": {
+    "guzzlehttp/guzzle": {
+      "version": "7.8.1",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "guzzlehttp/promises",
+        "guzzlehttp/psr7",
+        "psr/http-client",
+        "symfony/deprecation-contracts"
+      ]
+    },
+    "guzzlehttp/promises": {
+      "version": "2.0.2",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "guzzlehttp/psr7": {
+      "version": "2.6.2",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "psr/http-factory",
+        "psr/http-message",
+        "ralouphie/getallheaders"
+      ]
+    },
+    "phpunit/phpunit": {
+      "version": "11.2.9",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "sebastian/comparator",
+        "sebastian/diff",
+        "sebastian/exporter",
+        "sebastian/global-state",
+        "sebastian/object-enumerator",
+        "sebastian/recursion-context",
+        "sebastian/type",
+        "sebastian/version",
+        "symfony/deprecation-contracts"
+      ]
+    },
+    "psr/http-client": {
+      "version": "1.0.3",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "psr/http-message"
+      ]
+    },
+    "psr/http-factory": {
+      "version": "1.1.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "psr/http-message"
+      ]
+    },
+    "psr/http-message": {
+      "version": "2.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "psr/log": {
+      "version": "3.0.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "ralouphie/getallheaders": {
+      "version": "3.0.3",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "sebastian/comparator": {
+      "version": "6.1.0",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "sebastian/diff",
+        "sebastian/exporter"
+      ]
+    },
+    "sebastian/diff": {
+      "version": "6.0.2",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "sebastian/exporter": {
+      "version": "6.1.3",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "sebastian/recursion-context"
+      ]
+    },
+    "sebastian/global-state": {
+      "version": "7.0.2",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "sebastian/object-reflector",
+        "sebastian/recursion-context"
+      ]
+    },
+    "sebastian/object-enumerator": {
+      "version": "6.0.1",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "sebastian/object-reflector",
+        "sebastian/recursion-context"
+      ]
+    },
+    "sebastian/object-reflector": {
+      "version": "3.0.0",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "sebastian/recursion-context": {
+      "version": "6.0.2",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "sebastian/type": {
+      "version": "5.1.0",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "sebastian/version": {
+      "version": "4.0.1",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "symfony/console": {
+      "version": "7.1.5",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "symfony/deprecation-contracts",
+        "symfony/polyfill-mbstring",
+        "symfony/service-contracts",
+        "symfony/string"
+      ]
+    },
+    "symfony/deprecation-contracts": {
+      "version": "3.5.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "symfony/http-client": {
+      "version": "7.1.5",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "psr/http-client",
+        "symfony/deprecation-contracts",
+        "symfony/http-client-contracts"
+      ]
+    },
+    "symfony/http-client-contracts": {
+      "version": "3.5.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "symfony/polyfill-intl-grapheme": {
+      "version": "1.30.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "version": "1.30.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "symfony/polyfill-mbstring": {
+      "version": "1.30.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "symfony/service-contracts": {
+      "version": "3.5.0",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": []
+    },
+    "symfony/string": {
+      "version": "7.1.5",
+      "source": "registry",
+      "group": "main",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "symfony/polyfill-intl-grapheme",
+        "symfony/polyfill-intl-normalizer",
+        "symfony/polyfill-mbstring"
+      ]
+    },
+    "symfony/var-dumper": {
+      "version": "7.1.5",
+      "source": "registry",
+      "group": "dev",
+      "source_detail": {
+        "distType": "zip",
+        "shasum": ""
+      },
+      "marker": null,
+      "dependencies": [
+        "symfony/polyfill-mbstring"
+      ]
+    }
+  },
+  "project_metadata": {
+    "groups": ["main", "dev"]
+  },
+  "warnings": []
+}
